@@ -52,6 +52,22 @@ export default function Home() {
       </div>
       <div className="p-4 text-sm flex flex-col gap-24">
         <Section>
+          <h2>Model</h2>
+          <div>
+            <LinkPreview 
+              imageSrc="/site-thumbnails/google-docs.avif"
+              isStatic={true}
+              url="https://docs.google.com/document/d/1bPdp7qnl5W4JDvfUu2DJ5r8kizlN-MF9UsgO-y49qzQ/edit?usp=sharing"
+            >
+              Amelia
+            </LinkPreview>{" "}
+            is our system for incubating robust, profitable businesses through the execution of academic research in startup technology products. We are currently working on solving tariff and customs management, starting with construction companies in a product called Riff.
+          </div>
+          <div>
+            Our team will post the progress for our projects under the Amelia system. We sell our products by speaking to people at events. If we fill their need for the right price, they buy it. Simple.
+          </div>
+        </Section>
+        <Section>
           <h2>Problem</h2>
           <div>
             Professors expressed to us that they spend a lot of time applying for federal and private grants to fund their research and, once secured, pursue targeted results by these companies and governments to renew their funding sources. Some researchers expressed an apathy towards the applicability of their work and felt it was out of their control.
@@ -96,46 +112,6 @@ export default function Home() {
               Oath of Solidarity
             </LinkPreview>{". "}
             This Oath goes beyond the company but rather an alignment of our life purpose and professional principles we abide by. The company and every other company we share as individuals are vehicles for carrying out that purpose and environments to re-enforce those principles.
-          </div>
-        </Section>
-        <Section>
-          <h2>Model</h2>
-          <div>
-            <LinkPreview 
-              imageSrc="/site-thumbnails/google-docs.avif"
-              isStatic={true}
-              url="https://docs.google.com/document/d/1bPdp7qnl5W4JDvfUu2DJ5r8kizlN-MF9UsgO-y49qzQ/edit?usp=sharing"
-            >
-              Amelia
-            </LinkPreview>{" "}
-            is our system for incubating robust, profitable businesses through the execution of academic research in startup technology products. We are currently working on solving tariff and customs management, starting with construction companies in a product called Riff.
-          </div>
-          <div>
-            Our team will post the progress for our projects under the Amelia system. We sell our products by speaking to people at events. If we fill their need for the right price, they buy it. Simple.
-          </div>
-        </Section>
-        <Section>
-          <h2 className="mb-3 md:mb-0 text-left">Team</h2>
-          <div className="col-span-2 flex flex-wrap gap-12 md:gap-24 md:grid md:grid-cols-2">
-            <TeamMember
-              name="Adam Blumenfeld"
-              profilePicturePath="/team/adam.jpeg"
-              title="CEO at CSX Labs"
-              twitter="https://x.com/nullref0"
-              linkedin="https://linkedin.com/in/nullstream"
-              github="https://github.com/ecsbeats"
-              keybase="https://keybase.io/nullref"
-            />
-            <TeamMember
-              name="Satvik Eltepu"
-              profilePicturePath="/team/satvik.jpeg"
-              title="CFO at CSX Labs"
-            />
-            <TeamMember
-              name="Srujan Murthy"
-              profilePicturePath="/team/srujan.jpeg"
-              title="COO at CSX Labs"
-            />
           </div>
         </Section>
         <Section className="gap-0">
