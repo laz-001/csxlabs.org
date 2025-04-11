@@ -52,7 +52,7 @@ export default function Home() {
       </div>
       <div className="p-4 text-sm flex flex-col gap-24">
         <Section>
-          <h2>PROBLEM</h2>
+          <h2>Problem</h2>
           <div>
             Professors expressed to us that they spend a lot of time applying for federal and private grants to fund their research and, once secured, pursue targeted results by these companies and governments to renew their funding sources. Some researchers expressed an apathy towards the applicability of their work and felt it was out of their control.
             <br /><br />
@@ -75,7 +75,7 @@ export default function Home() {
           </div>
         </Section>
         <Section>
-          <h2>PHILOSOPHY</h2>
+          <h2>Philosophy</h2>
           <div>
             <i>Focus on the user, and all else will follow.</i> A business interaction is fundamentally a value exchange between two or more humans. We put emerging technologies to use, providing value to people.
             <br /><br />
@@ -99,7 +99,7 @@ export default function Home() {
           </div>
         </Section>
         <Section>
-          <h2>MODEL</h2>
+          <h2>Model</h2>
           <div>
             <LinkPreview 
               imageSrc="/site-thumbnails/google-docs.avif"
@@ -115,7 +115,7 @@ export default function Home() {
           </div>
         </Section>
         <Section>
-          <h2 className="mb-3 md:mb-0 text-left">TEAM</h2>
+          <h2 className="mb-3 md:mb-0 text-left">Team</h2>
           <div className="col-span-2 flex flex-wrap gap-12 md:gap-24 md:grid md:grid-cols-2">
             <TeamMember
               name="Adam Blumenfeld"
@@ -139,22 +139,20 @@ export default function Home() {
           </div>
         </Section>
         <Section className="gap-0">
-          <h1>CONTACT</h1>
+          <h1>Contact</h1>
           <div>
-            BY EMAIL
+            By Email
             <ul className="mt-4 mb-12">
               <li>General Information: info@csxlabs.org</li>
               <li>Sales: sales@csxlabs.org</li>
               <li>Partnerships: partnerships@csxlabs.org</li>
               <li>Governments, Defense, and Intelligence: governments@csxlabs.org</li>
             </ul>
-            BY PHONE
+            By Phone
             <p className="mt-4 mb-12">
               We are operational between 8:30am-5pm PT weekdays, if we can&apos;t pick up we will get back to you within 24 hours: +1 (925) 307-9351
             </p>
-          </div>
-          <div>
-            BY MAIL
+            By Mail
             <p className="mt-4 mb-4">
               Please refrain from sending large packages to this address. If you must make a large shipment, please contact us first.
             </p>
@@ -166,9 +164,9 @@ export default function Home() {
           </div>
         </Section>
         <Section>
-          <div>COPYRIGHT</div>
+          <div>Copyright</div>
           <div className="col-span-2">
-            Copyright &copy; 2024 CSX Labs, LLC. All rights reserved.
+            Copyright © 2024 CSX Labs, LLC. All rights reserved.
           </div>
         </Section>
       </div>
