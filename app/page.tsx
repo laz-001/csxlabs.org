@@ -52,7 +52,7 @@ export default function Home() {
       </div>
       <div className="p-4 text-sm flex flex-col gap-24">
         <Section>
-          <h2 className="text-lg font-medium mb-6 text-neutral-100">Model</h2>
+          <h2 className="text-lg font-medium mb-6 text-neutral-900 dark:text-neutral-100">Model</h2>
           <div className="text-base leading-7 tracking-wide">
             <LinkPreview 
               imageSrc="/site-thumbnails/google-docs.avif"
@@ -68,7 +68,7 @@ export default function Home() {
           </div>
         </Section>
         <Section>
-          <h2 className="text-lg font-medium mb-6 text-neutral-100">Problem</h2>
+          <h2 className="text-lg font-medium mb-6 text-neutral-900 dark:text-neutral-100">Problem</h2>
           <div className="text-base leading-7 tracking-wide">
             Professors expressed to us that they spend a lot of time applying for federal and private grants to fund their research and, once secured, pursue targeted results by these companies and governments to renew their funding sources. Some researchers expressed an apathy towards the applicability of their work and felt it was out of their control.
             <br /><br />
@@ -91,7 +91,7 @@ export default function Home() {
           </div>
         </Section>
         <Section>
-          <h2 className="text-lg font-medium mb-6 text-neutral-100">Philosophy</h2>
+          <h2 className="text-lg font-medium mb-6 text-neutral-900 dark:text-neutral-100">Philosophy</h2>
           <div className="text-base leading-7 tracking-wide">
             <i>Focus on the user, and all else will follow.</i> A business interaction is fundamentally a value exchange between two or more humans. We put emerging technologies to use, providing value to people.
             <br /><br />
@@ -115,45 +115,45 @@ export default function Home() {
           </div>
         </Section>
         <Section className="gap-0">
-          <h1>Contact</h1>
+          <h1 className="text-xl font-medium text-neutral-900 dark:text-neutral-100">Contact</h1>
           <div>
-            <h3 className="border-b border-neutral-600 pb-1 mb-2 text-neutral-100">By Email</h3>
-            <ul className="mt-2 mb-8 flex flex-col space-y-1.5">
+            <h3 className="border-b border-neutral-600 pb-1 mb-2 text-neutral-900 dark:text-neutral-100 font-bold">By Email</h3>
+            <ul className="mt-4 mb-12 flex flex-col space-y-1.5">
               <li className="flex items-start">
-                <span className="inline-block w-56 text-neutral-100">info@csxlabs.org</span>
+                <span className="inline-block w-56 font-bold text-neutral-900 dark:text-neutral-100">info@csxlabs.org</span>
                 <span>General Information</span>
               </li>
               <li className="flex items-start">
-                <span className="inline-block w-56 text-neutral-100">sales@csxlabs.org</span>
+                <span className="inline-block w-56 font-bold text-neutral-900 dark:text-neutral-100">sales@csxlabs.org</span>
                 <span>Sales</span>
               </li>
               <li className="flex items-start">
-                <span className="inline-block w-56 text-neutral-100">partnerships@csxlabs.org</span>
+                <span className="inline-block w-56 font-bold text-neutral-900 dark:text-neutral-100">partnerships@csxlabs.org</span>
                 <span>Partnerships</span>
               </li>
               <li className="flex items-start">
-                <span className="inline-block w-56 text-neutral-100">governments@csxlabs.org</span>
+                <span className="inline-block w-56 font-bold text-neutral-900 dark:text-neutral-100">governments@csxlabs.org</span>
                 <span>Governments, Defense, and Intelligence</span>
               </li>
             </ul>
-            <h3 className="border-b border-neutral-600 pb-1 mb-2 text-neutral-100">By Phone</h3>
+            <h3 className="border-b border-neutral-600 pb-1 mb-2 text-neutral-900 dark:text-neutral-100 font-bold">By Phone</h3>
             <p className="mt-4 mb-12">
-            <b>+1 (925) 307-9351</b> - 8:30am-5pm PT weekdays. <br /> <br />
-            If we can&apos;t pick up we will get back to you within 24 hours.
+              <b>+1 (925) 307-9351</b> - 8:30am-5pm PT weekdays. <br /> <br />
+              If we can&apos;t pick up we will get back to you within 24 hours.
             </p>
-            <h3 className="border-b border-neutral-600 pb-1 mb-2 text-neutral-100">By Mail</h3>
-            <p className="mt-4 mb-4">
+            <h3 className="border-b border-neutral-600 pb-1 mb-2 text-neutral-900 dark:text-neutral-100 font-bold">By Mail</h3>
+            <p className="mt-4 mb-4 font-bold">
               2108 N Street STE 4995<br />
               Sacramento, CA 95816-5712<br />
               USA
             </p>
             <p className="mb-12">
-              For large packages or shipments, please contact us first for delivery details.
+              For large packages, please contact us first for delivery details.
             </p>
           </div>
         </Section>
         <Section>
-          <div>Copyright</div>
+          <div className="text-lg font-medium text-neutral-900 dark:text-neutral-100">Copyright</div>
           <div className="col-span-2">
             Copyright © 2024 CSX Labs, LLC. All rights reserved.
           </div>
