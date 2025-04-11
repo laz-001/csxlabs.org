@@ -141,26 +141,38 @@ export default function Home() {
         <Section className="gap-0">
           <h1>Contact</h1>
           <div>
-            By Email
-            <ul className="mt-4 mb-12">
-              <li>General Information: info@csxlabs.org</li>
-              <li>Sales: sales@csxlabs.org</li>
-              <li>Partnerships: partnerships@csxlabs.org</li>
-              <li>Governments, Defense, and Intelligence: governments@csxlabs.org</li>
+            <h3 className="border-b border-neutral-700 pb-1 mb-2">By Email</h3>
+            <ul className="mt-2 mb-8 flex flex-col">
+              <li className="flex items-start">
+                <span className="inline-block w-56">info@csxlabs.org</span>
+                <span>General Information</span>
+              </li>
+              <li className="flex items-start">
+                <span className="inline-block w-56">sales@csxlabs.org</span>
+                <span>Sales</span>
+              </li>
+              <li className="flex items-start">
+                <span className="inline-block w-56">partnerships@csxlabs.org</span>
+                <span>Partnerships</span>
+              </li>
+              <li className="flex items-start">
+                <span className="inline-block w-56">governments@csxlabs.org</span>
+                <span>Governments, Defense, and Intelligence</span>
+              </li>
             </ul>
-            By Phone
+            <h3 className="border-b border-neutral-700 pb-1 mb-2">By Phone</h3>
             <p className="mt-4 mb-12">
             <b>+1 (925) 307-9351</b> - 8:30am-5pm PT weekdays. <br /> <br />
             If we can&apos;t pick up we will get back to you within 24 hours.
             </p>
-            By Mail
+            <h3 className="border-b border-neutral-700 pb-1 mb-2">By Mail</h3>
             <p className="mt-4 mb-4">
-              Please refrain from sending large packages to this address. If you must make a large shipment, please contact us first.
-            </p>
-            <p className="mb-12">
               2108 N Street STE 4995<br />
               Sacramento, CA 95816-5712<br />
               USA
+            </p>
+            <p className="mb-12">
+              For large packages or shipments, please contact us first for delivery details.
             </p>
           </div>
         </Section>
