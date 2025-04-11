@@ -52,8 +52,8 @@ export default function Home() {
       </div>
       <div className="p-4 text-sm flex flex-col gap-24">
         <Section>
-          <h2 className="text-lg font-medium mb-6 text-neutral-900 dark:text-neutral-100">Model</h2>
-          <div className="text-base leading-7 tracking-wide">
+          <h2 className="text-lg font-medium mb-6 text-black dark:text-neutral-100">Model</h2>
+          <div className="text-base leading-7">
             <LinkPreview 
               imageSrc="/site-thumbnails/google-docs.avif"
               isStatic={true}
@@ -63,20 +63,20 @@ export default function Home() {
             </LinkPreview>{" "}
             is our system for incubating robust, profitable businesses through the execution of academic research in startup technology products. We are currently working on solving tariff and customs management, starting with construction companies in a product called Riff.
           </div>
-          <div className="text-base leading-7 tracking-wide">
+          <div className="text-base leading-7">
             Our team will post the progress for our projects under the Amelia system. We sell our products by speaking to people at events. If we fill their need for the right price, they buy it. Simple.
           </div>
         </Section>
         <Section>
-          <h2 className="text-lg font-medium mb-6 text-neutral-900 dark:text-neutral-100">Problem</h2>
-          <div className="text-base leading-7 tracking-wide">
+          <h2 className="text-lg font-medium mb-6 text-black dark:text-neutral-100">Problem</h2>
+          <div className="text-base leading-7">
             Professors expressed to us that they spend a lot of time applying for federal and private grants to fund their research and, once secured, pursue targeted results by these companies and governments to renew their funding sources. Some researchers expressed an apathy towards the applicability of their work and felt it was out of their control.
             <br /><br />
             Software Engineers at <LinkPreview url="https://news.ycombinator.com/item?id=32415934">Google</LinkPreview>, <LinkPreview url="https://alvinwan.com/why-and-why-not-work-at-meta/">Meta</LinkPreview>, and other big tech companies expressed dissatisfaction with the impact of the work and scope of their responsibility. Many people we talked to were starting side projects to spin off into startups. 
             <br /><br />
             Our anecdotal experience was that with startup-related projects we&apos;ve worked on in the past, the pressure of immediate hyperbolic growth led us to sacrifice the pursuit of superior technology for humanity to tend to other bars to try to impress investors or achieve short-term growth. 
           </div>
-          <div className="text-base leading-7 tracking-wide">
+          <div className="text-base leading-7">
             We have seen startups, such as OpenAI, make significant exploratory research and development efforts to pursue human knowledge. They haphazardly released a research demo of a fine-tuned version of their GPT-3 for chat. This demo was ChatGPT. Sam Altman, the previous YC president, led the company that accidentally launched the fastest-growing internet product, naming it Chat-Generative-Pretrained-Transformer.
             <br /><br />
             We used GPT-3 in an education platform before ChatGPT was released, and although it was evident in hindsight, we never would have considered its growth once it reached consumers.
@@ -91,15 +91,15 @@ export default function Home() {
           </div>
         </Section>
         <Section>
-          <h2 className="text-lg font-medium mb-6 text-neutral-900 dark:text-neutral-100">Philosophy</h2>
-          <div className="text-base leading-7 tracking-wide">
+          <h2 className="text-lg font-medium mb-6 text-black dark:text-neutral-100">Philosophy</h2>
+          <div className="text-base leading-7">
             <i>Focus on the user, and all else will follow.</i> A business interaction is fundamentally a value exchange between two or more humans. We put emerging technologies to use, providing value to people.
             <br /><br />
             <i>Embrace risk to compound success.</i> CSX Labs stands for Computer Science Exploration Laboratories. Exploration is adventuring into areas we are uncomfortable with, where there is a high perceived risk. In our original Business Plan, we discussed how our failures yield lessons that compound in value over time. This principle has held through the past iterations of this company and many failed launches: Solus Regera, Nullref, Candle, Blue-ESPARK, DChat, and many more gave invaluable lessons that strengthened these values.
             <br /><br />
             <i>Integrity and transparency build longevity.</i> Integrity means doing right by our principles and telling the truth. Transparency is congruent with confidentiality in that we guarantee privacy to our customers and post failures for everyone to learn from, regardless of the short-term consequences. The foundation of business is trust; operating in good faith and posting short-term failures builds long-term trust.
           </div>
-          <div className="text-base leading-7 tracking-wide">
+          <div className="text-base leading-7">
             <i>Health is wealth.</i> There is an epedemic of burnout amoung software engineers at a variety of comapnies, big and small. The personal health and alignment of values amoung our members with the group is prioritized over business metrics, financial and otherwise.
             <br /><br />
             Our health as a business is our creation of core, resistant businesses that are financially healthy regardless of market volatility. We regard financial health as a profitable business that can operate free of market conditions and stick to core principles when making decisions. Advertising makes free products cash flow positive but can drive companies to stay in a narrow chamber on social issues and align with the status quo. We aim to build financially stable businesses with "fortress balance sheets" (a term from Jamie Dimon, CEO of JP Morgan Chase) to operate best to our mission, not our image.
@@ -115,46 +115,46 @@ export default function Home() {
           </div>
         </Section>
         <Section className="gap-0">
-          <h1 className="text-xl font-medium text-neutral-900 dark:text-neutral-100">Contact</h1>
+          <h1 className="text-xl font-medium text-black dark:text-neutral-100">Contact</h1>
           <div>
-            <h3 className="border-b border-neutral-600 pb-1 mb-2 text-neutral-900 dark:text-neutral-100 font-bold">By Email</h3>
+            <h3 className="border-b border-neutral-600 pb-1 mb-2 text-black dark:text-neutral-100 font-bold">By Email</h3>
             <ul className="mt-4 mb-12 flex flex-col space-y-1.5">
               <li className="flex items-start">
-                <span className="inline-block w-56 font-bold text-neutral-900 dark:text-neutral-100">info@csxlabs.org</span>
-                <span>General Information</span>
+                <span className="inline-block w-56 font-bold text-black dark:text-neutral-100">info@csxlabs.org</span>
+                <span className="text-base">General Information</span>
               </li>
               <li className="flex items-start">
-                <span className="inline-block w-56 font-bold text-neutral-900 dark:text-neutral-100">sales@csxlabs.org</span>
-                <span>Sales</span>
+                <span className="inline-block w-56 font-bold text-black dark:text-neutral-100">sales@csxlabs.org</span>
+                <span className="text-base">Sales</span>
               </li>
               <li className="flex items-start">
-                <span className="inline-block w-56 font-bold text-neutral-900 dark:text-neutral-100">partnerships@csxlabs.org</span>
-                <span>Partnerships</span>
+                <span className="inline-block w-56 font-bold text-black dark:text-neutral-100">partnerships@csxlabs.org</span>
+                <span className="text-base">Partnerships</span>
               </li>
               <li className="flex items-start">
-                <span className="inline-block w-56 font-bold text-neutral-900 dark:text-neutral-100">governments@csxlabs.org</span>
-                <span>Governments, Defense, and Intelligence</span>
+                <span className="inline-block w-56 font-bold text-black dark:text-neutral-100">governments@csxlabs.org</span>
+                <span className="text-base">Governments, Defense, and Intelligence</span>
               </li>
             </ul>
-            <h3 className="border-b border-neutral-600 pb-1 mb-2 text-neutral-900 dark:text-neutral-100 font-bold">By Phone</h3>
-            <p className="mt-4 mb-12">
-              <b>+1 (925) 307-9351</b> - 8:30am-5pm PT weekdays. <br /> <br />
+            <h3 className="border-b border-neutral-600 pb-1 mb-2 text-black dark:text-neutral-100 font-bold">By Phone</h3>
+            <p className="mt-4 mb-12 text-base">
+              <b className="text-black dark:text-neutral-100">+1 (925) 307-9351</b> - 8:30am-5pm PT weekdays. <br /> <br />
               If we can&apos;t pick up we will get back to you within 24 hours.
             </p>
-            <h3 className="border-b border-neutral-600 pb-1 mb-2 text-neutral-900 dark:text-neutral-100 font-bold">By Mail</h3>
-            <p className="mt-4 mb-4 font-bold">
+            <h3 className="border-b border-neutral-600 pb-1 mb-2 text-black dark:text-neutral-100 font-bold">By Mail</h3>
+            <p className="mt-4 mb-4 font-bold text-base text-black dark:text-neutral-100">
               2108 N Street STE 4995<br />
               Sacramento, CA 95816-5712<br />
               USA
             </p>
-            <p className="mb-12">
+            <p className="mb-12 text-base">
               For large packages, please contact us first for delivery details.
             </p>
           </div>
         </Section>
         <Section>
-          <div className="text-lg font-medium text-neutral-900 dark:text-neutral-100">Copyright</div>
-          <div className="col-span-2">
+          <div className="text-lg font-medium text-black dark:text-neutral-100">Copyright</div>
+          <div className="col-span-2 text-base">
             Copyright © 2024 CSX Labs, LLC. All rights reserved.
           </div>
         </Section>

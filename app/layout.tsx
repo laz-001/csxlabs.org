@@ -32,7 +32,7 @@ export default function RootLayout({
           enableSystem={false}
           storageKey="csxlabs-theme"
         >
-          <div className="min-h-screen bg-gradient-to-br from-neutral-50 via-neutral-100 to-neutral-200 dark:from-neutral-950 dark:to-neutral-900 text-neutral-900 dark:text-neutral-300 antialiased">
+          <div className="min-h-screen bg-gradient-to-br from-neutral-50 via-neutral-100 to-neutral-200 dark:from-neutral-950 dark:to-neutral-900 text-black dark:text-neutral-300 antialiased">
             <Header links={[]} />
             {children}
             <div className="fixed bottom-8 right-8">
