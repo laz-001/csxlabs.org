@@ -1,21 +1,16 @@
 import React from "react";
 import Link from "next/link";
-import Image from "next/image";
-import logo from "../public/logo.svg";
 
 export const Header: React.FC<{
     links: {title: string, url: string}[]
 }> = ({ links }) => (
-    <div className="flex h-auto py-4 px-4">
-        <div>
-            <Image
-                src={logo}
-                alt="CSX Labs"
-                className="h-6 w-auto"
-            />
-        </div>
-        <div>
-
+    <div className="flex h-auto py-4 px-4 justify-end items-center">
+        <div className="flex items-center gap-4">
+            {links.map((link, i) => (
+                <Link key={i} href={link.url} className="hover:underline">
+                    {link.title}
+                </Link>
+            ))}
         </div>
     </div>
 );

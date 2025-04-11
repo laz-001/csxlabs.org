@@ -25,12 +25,7 @@ export default function RootLayout({
       </head>
         <body className={clsx(schibested_grotesk.className, 'dark bg-gradient-to-br from-neutral-800 via-neutral-900 to-neutral-950 text-neutral-50')}>
           <Header
-            links={[
-              {
-                title: "PROJECTS",
-                url: "/projects"
-              }
-            ]}
+            links={[]}
           />
           {children}
         </body>
