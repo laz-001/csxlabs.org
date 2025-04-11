@@ -34,11 +34,11 @@ export default function Home() {
           <Image
             src={logo}
             alt="CSX Labs"
-            className="h-12 w-auto"
+            className="h-12 w-auto invert dark:invert-0"
           />
         </div>
         <div className="mt-4">
-          <h1 className="text-lg text-neutral-300">a for-profit research institution</h1>
+          <h1 className="text-lg text-black dark:text-neutral-300">a for-profit research institution</h1>
         </div>
         {showArrow && (
           <button 
