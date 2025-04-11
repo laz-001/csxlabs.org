@@ -114,6 +114,30 @@ export default function Home() {
             This Oath goes beyond the company but rather an alignment of our life purpose and professional principles we abide by. The company and every other company we share as individuals are vehicles for carrying out that purpose and environments to re-enforce those principles.
           </div>
         </Section>
+        <Section>
+          <h2 className="mb-3 md:mb-0 text-lg font-medium text-black dark:text-neutral-100">Team</h2>
+          <div className="col-span-2 flex flex-wrap gap-12 md:gap-24 md:grid md:grid-cols-2">
+            <TeamMember
+              name="Adam Blumenfeld"
+              profilePicturePath="/team/adam.jpeg"
+              title="CEO"
+              twitter="https://x.com/nullref0"
+              linkedin="https://linkedin.com/in/nullstream"
+              github="https://github.com/ecsbeats"
+              keybase="https://keybase.io/nullref"
+            />
+            <TeamMember
+              name="Satvik Eltepu"
+              profilePicturePath="/team/satvik.jpeg"
+              title="CFO"
+            />
+            <TeamMember
+              name="Srujan Murthy"
+              profilePicturePath="/team/srujan.jpeg"
+              title="COO"
+            />
+          </div>
+        </Section>
         <Section className="gap-0">
           <h1 className="text-xl font-medium text-black dark:text-neutral-100">Contact</h1>
           <div>
