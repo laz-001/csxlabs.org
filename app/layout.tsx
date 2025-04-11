@@ -23,7 +23,7 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="/favicon.svg" sizes="any" />
       </head>
-        <body className={clsx(schibested_grotesk.className, 'dark bg-gradient-to-br from-neutral-800 via-neutral-900 to-neutral-950 text-neutral-50')}>
+        <body className={clsx(schibested_grotesk.className, 'dark bg-gradient-to-br from-neutral-950 to-neutral-900 text-neutral-300 antialiased')}>
           <Header
             links={[]}
           />
