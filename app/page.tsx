@@ -54,64 +54,121 @@ export default function Home() {
         <Section>
           <h2 className="text-lg font-medium mb-6 text-black dark:text-neutral-100">Model</h2>
           <div className="text-base leading-7">
-            <LinkPreview 
-              imageSrc="/site-thumbnails/google-docs.avif"
-              isStatic={true}
-              url="https://docs.google.com/document/d/1bPdp7qnl5W4JDvfUu2DJ5r8kizlN-MF9UsgO-y49qzQ/edit?usp=sharing"
-            >
-              Amelia
-            </LinkPreview>{" "}
-            is our system for incubating robust, profitable businesses through the execution of academic research in startup technology products. We are currently working on solving tariff and customs management, starting with construction companies in a product called Riff.
+            <div className="mb-8">
+              <div className="border-b border-neutral-600 pb-1 mb-4">
+                <strong className="text-black dark:text-neutral-100">Research to Market</strong>
+              </div>
+              <LinkPreview 
+                imageSrc="/site-thumbnails/google-docs.avif"
+                isStatic={true}
+                url="https://docs.google.com/document/d/1bPdp7qnl5W4JDvfUu2DJ5r8kizlN-MF9UsgO-y49qzQ/edit?usp=sharing"
+              >
+                Amelia
+              </LinkPreview>{" "}
+              is our system for incubating robust, profitable businesses through the execution of academic research in startup technology products. We are currently working on solving tariff and customs management, starting with construction companies in a product called Riff.
+            </div>
           </div>
           <div className="text-base leading-7">
-            Our team will post the progress for our projects under the Amelia system. We sell our products by speaking to people at events. If we fill their need for the right price, they buy it. Simple.
+            <div className="mb-4">
+              <div className="border-b border-neutral-600 pb-1 mb-4">
+                <strong className="text-black dark:text-neutral-100">Transparent Progress</strong>
+              </div>
+              Our team will post the progress for our projects under the Amelia system. We sell our products by speaking to people at events. If we fill their need for the right price, they buy it. Simple.
+            </div>
           </div>
         </Section>
         <Section>
           <h2 className="text-lg font-medium mb-6 text-black dark:text-neutral-100">Problem</h2>
           <div className="text-base leading-7">
-            Professors expressed to us that they spend a lot of time applying for federal and private grants to fund their research and, once secured, pursue targeted results by these companies and governments to renew their funding sources. Some researchers expressed an apathy towards the applicability of their work and felt it was out of their control.
-            <br /><br />
-            Software Engineers at <LinkPreview url="https://news.ycombinator.com/item?id=32415934">Google</LinkPreview>, <LinkPreview url="https://alvinwan.com/why-and-why-not-work-at-meta/">Meta</LinkPreview>, and other big tech companies expressed dissatisfaction with the impact of the work and scope of their responsibility. Many people we talked to were starting side projects to spin off into startups. 
-            <br /><br />
-            Our anecdotal experience was that with startup-related projects we&apos;ve worked on in the past, the pressure of immediate hyperbolic growth led us to sacrifice the pursuit of superior technology for humanity to tend to other bars to try to impress investors or achieve short-term growth. 
+            <div className="mb-8">
+              <div className="border-b border-neutral-600 pb-1 mb-4">
+                <strong className="text-black dark:text-neutral-100">Academic Research Limitations</strong>
+              </div>
+              Professors often spend significant time applying for grants to fund their research, then pursue results targeted by funding sources. Many researchers feel disconnected from the real-world applications of their work.
+            </div>
+            
+            <div className="mb-8">
+              <div className="border-b border-neutral-600 pb-1 mb-4">
+                <strong className="text-black dark:text-neutral-100">Industry Disconnect</strong>
+              </div>
+              Software engineers at major tech companies frequently express dissatisfaction with their impact and limited scope of responsibility. Many professionals seek side projects with greater purpose and autonomy.
+            </div>
+            
+            <div className="mb-4">
+              <div className="border-b border-neutral-600 pb-1 mb-4">
+                <strong className="text-black dark:text-neutral-100">Growth Pressure</strong>
+              </div>
+              The pressure for immediate hyperbolic growth in startups often leads to sacrificing superior technology and innovation for short-term metrics that appeal to investors.
+            </div>
           </div>
           <div className="text-base leading-7">
-            We have seen startups, such as OpenAI, make significant exploratory research and development efforts to pursue human knowledge. They haphazardly released a research demo of a fine-tuned version of their GPT-3 for chat. This demo was ChatGPT. Sam Altman, the previous YC president, led the company that accidentally launched the fastest-growing internet product, naming it Chat-Generative-Pretrained-Transformer.
-            <br /><br />
-            We used GPT-3 in an education platform before ChatGPT was released, and although it was evident in hindsight, we never would have considered its growth once it reached consumers.
-            <br /><br />
-            This story proved that hacking growth is not a great use of our time, and it will come with care of the technology and the people using it. <LinkPreview
-              imageSrc="/site-thumbnails/sam-altman-iit-interview.png"
-              isStatic={true}
-              url="https://www.youtube.com/live/Pig9WbMN1lQ?si=5hLkSjLqZyMNu4vm&t=1220"
-            >
-              Traditional startup advice is useful but not the rule
-            </LinkPreview>. Pursuing knowledge in academia still puts someone else in control of our capital and the general direction of our endeavors.
+            <div className="mb-8">
+              <div className="border-b border-neutral-600 pb-1 mb-4">
+                <strong className="text-black dark:text-neutral-100">Technology Impact</strong>
+              </div>
+              We've witnessed how research-focused companies can create groundbreaking products that transform industries. Sometimes the most impactful innovations emerge from exploration rather than targeted growth hacking.
+            </div>
+            
+            <div className="mb-4">
+              <div className="border-b border-neutral-600 pb-1 mb-4">
+                <strong className="text-black dark:text-neutral-100">Market Independence</strong>
+              </div>
+              Our experience has shown that focusing on technology advancement and user needs yields better long-term results than chasing growth metrics. We believe in building technology that solves meaningful problems without external pressures dictating our direction.
+            </div>
           </div>
         </Section>
         <Section>
           <h2 className="text-lg font-medium mb-6 text-black dark:text-neutral-100">Philosophy</h2>
           <div className="text-base leading-7">
-            <i>Focus on the user, and all else will follow.</i> A business interaction is fundamentally a value exchange between two or more humans. We put emerging technologies to use, providing value to people.
-            <br /><br />
-            <i>Embrace risk to compound success.</i> CSX Labs stands for Computer Science Exploration Laboratories. Exploration is adventuring into areas we are uncomfortable with, where there is a high perceived risk. In our original Business Plan, we discussed how our failures yield lessons that compound in value over time. This principle has held through the past iterations of this company and many failed launches: Solus Regera, Nullref, Candle, Blue-ESPARK, DChat, and many more gave invaluable lessons that strengthened these values.
-            <br /><br />
-            <i>Integrity and transparency build longevity.</i> Integrity means doing right by our principles and telling the truth. Transparency is congruent with confidentiality in that we guarantee privacy to our customers and post failures for everyone to learn from, regardless of the short-term consequences. The foundation of business is trust; operating in good faith and posting short-term failures builds long-term trust.
+            <div className="mb-8">
+              <div className="border-b border-neutral-600 pb-1 mb-4">
+                <strong className="text-black dark:text-neutral-100">Focus on the user, and all else will follow</strong>
+              </div>
+              A business interaction is fundamentally a value exchange between two or more humans. We put emerging technologies to use, providing value to people.
+            </div>
+            
+            <div className="mb-8">
+              <div className="border-b border-neutral-600 pb-1 mb-4">
+                <strong className="text-black dark:text-neutral-100">Embrace risk to compound success</strong>
+              </div>
+              CSX Labs stands for Computer Science Exploration Laboratories. Exploration is adventuring into areas we are uncomfortable with, where there is a high perceived risk. In our original Business Plan, we discussed how our failures yield lessons that compound in value over time. This principle has held through the past iterations of this company and many failed launches: Solus Regera, Nullref, Candle, Blue-ESPARK, DChat, and many more gave invaluable lessons that strengthened these values.
+            </div>
+            
+            <div className="mb-4">
+              <div className="border-b border-neutral-600 pb-1 mb-4">
+                <strong className="text-black dark:text-neutral-100">Integrity and transparency build longevity</strong>
+              </div>
+              Integrity means doing right by our principles and telling the truth. Transparency is congruent with confidentiality in that we guarantee privacy to our customers and post failures for everyone to learn from, regardless of the short-term consequences. The foundation of business is trust; operating in good faith and posting short-term failures builds long-term trust.
+            </div>
           </div>
           <div className="text-base leading-7">
-            <i>Health is wealth.</i> There is an epedemic of burnout amoung software engineers at a variety of comapnies, big and small. The personal health and alignment of values amoung our members with the group is prioritized over business metrics, financial and otherwise.
-            <br /><br />
-            Our health as a business is our creation of core, resistant businesses that are financially healthy regardless of market volatility. We regard financial health as a profitable business that can operate free of market conditions and stick to core principles when making decisions. Advertising makes free products cash flow positive but can drive companies to stay in a narrow chamber on social issues and align with the status quo. We aim to build financially stable businesses with "fortress balance sheets" (a term from Jamie Dimon, CEO of JP Morgan Chase) to operate best to our mission, not our image.
-            <br /><br />
-            On March 10th, 2024, our core team members solemnly swore to solidarity in advancing technology for humanity by our principles and the characteristics outlined in an{" "}
-            <LinkPreview
-              imageSrc="/site-thumbnails/google-docs.avif"
-              isStatic={true}
-              url="https://drive.google.com/file/d/1dr74v3FQz4xgiCksmLZyTspa973SigOc/view?usp=sharing">
-              Oath of Solidarity
-            </LinkPreview>{". "}
-            This Oath goes beyond the company but rather an alignment of our life purpose and professional principles we abide by. The company and every other company we share as individuals are vehicles for carrying out that purpose and environments to re-enforce those principles.
+            <div className="mb-8">
+              <div className="border-b border-neutral-600 pb-1 mb-4">
+                <strong className="text-black dark:text-neutral-100">Health is wealth</strong>
+              </div>
+              There is an epidemic of burnout among software engineers at companies both big and small. We prioritize personal health and values alignment among our members over business metrics.
+            </div>
+            
+            <div className="mb-8">
+              <div className="border-b border-neutral-600 pb-1 mb-4">
+                <strong className="text-black dark:text-neutral-100">Financial independence enables mission focus</strong>
+              </div>
+              Our health as a business comes from creating core, resistant businesses that are financially healthy regardless of market volatility. We build stable companies that can operate free of market conditions and stay true to core principles.
+            </div>
+            
+            <div className="mb-4">
+              <div className="border-b border-neutral-600 pb-1 mb-4">
+                <strong className="text-black dark:text-neutral-100">Solidarity in purpose</strong>
+              </div>
+              On March 10th, 2024, our core team members solemnly swore to solidarity in advancing technology for humanity by our principles and the characteristics outlined in an{" "}
+              <LinkPreview
+                imageSrc="/site-thumbnails/google-docs.avif"
+                isStatic={true}
+                url="https://drive.google.com/file/d/1dr74v3FQz4xgiCksmLZyTspa973SigOc/view?usp=sharing">
+                Oath of Solidarity
+              </LinkPreview>{". "}
+              This Oath goes beyond the company but rather an alignment of our life purpose and professional principles we abide by.
+            </div>
           </div>
         </Section>
         <Section>
