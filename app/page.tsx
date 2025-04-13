@@ -122,52 +122,52 @@ export default function Home() {
           <div className="text-base leading-7">
             <div className="mb-8">
               <div className="border-b border-neutral-600 pb-1 mb-4">
-                <strong className="text-black dark:text-neutral-100">Focus on the user, and all else will follow</strong>
+                <strong className="text-black dark:text-neutral-100">Focus on the User, and All Else Will Follow</strong>
               </div>
               A business interaction is fundamentally a value exchange between two or more humans. We put emerging technologies to use, providing value to people.
             </div>
             
             <div className="mb-8">
               <div className="border-b border-neutral-600 pb-1 mb-4">
-                <strong className="text-black dark:text-neutral-100">Embrace risk to compound success</strong>
+                <strong className="text-black dark:text-neutral-100">Embrace Risk to Compound Success</strong>
               </div>
-              CSX Labs stands for Computer Science Exploration Laboratories. Exploration is adventuring into areas we are uncomfortable with, where there is a high perceived risk. In our original Business Plan, we discussed how our failures yield lessons that compound in value over time. This principle has held through the past iterations of this company and many failed launches: Solus Regera, Nullref, Candle, Blue-ESPARK, DChat, and many more gave invaluable lessons that strengthened these values.
+              CSX Labs stands for Computer Science Exploration Laboratories. Exploration means venturing into uncomfortable territories with high perceived risk. Our failures yield lessons that compound in value over time, strengthening our core values through iterations of Solus Regera, Nullref, Candle, Blue-ESPARK, DChat, and others.
             </div>
             
             <div className="mb-4">
               <div className="border-b border-neutral-600 pb-1 mb-4">
-                <strong className="text-black dark:text-neutral-100">Integrity and transparency build longevity</strong>
+                <strong className="text-black dark:text-neutral-100">Integrity and Transparency Build Longevity</strong>
               </div>
-              Integrity means doing right by our principles and telling the truth. Transparency is congruent with confidentiality in that we guarantee privacy to our customers and post failures for everyone to learn from, regardless of the short-term consequences. The foundation of business is trust; operating in good faith and posting short-term failures builds long-term trust.
+              We operate with integrity by adhering to our principles and maintaining transparency. While ensuring customer privacy, we share our learnings openly, building long-term trust through honest operation and accountability.
             </div>
           </div>
           <div className="text-base leading-7">
             <div className="mb-8">
               <div className="border-b border-neutral-600 pb-1 mb-4">
-                <strong className="text-black dark:text-neutral-100">Health is wealth</strong>
+                <strong className="text-black dark:text-neutral-100">Health is Wealth</strong>
               </div>
-              There is an epidemic of burnout among software engineers at companies both big and small. We prioritize personal health and values alignment among our members over business metrics.
+              <div className="text-base">There is an epidemic of burnout among software engineers at companies both big and small. We prioritize personal health and values alignment among our members over business metrics.</div>
             </div>
             
             <div className="mb-8">
               <div className="border-b border-neutral-600 pb-1 mb-4">
-                <strong className="text-black dark:text-neutral-100">Financial independence enables mission focus</strong>
+                <strong className="text-black dark:text-neutral-100">Financial Independence Enables Mission Focus</strong>
               </div>
-              Our health as a business comes from creating core, resistant businesses that are financially healthy regardless of market volatility. We build stable companies that can operate free of market conditions and stay true to core principles.
+              <div className="text-base">Our health as a business comes from creating core, resistant businesses that are financially healthy regardless of market volatility. We build stable companies that can operate free of market conditions and stay true to core principles.</div>
             </div>
             
             <div className="mb-4">
               <div className="border-b border-neutral-600 pb-1 mb-4">
-                <strong className="text-black dark:text-neutral-100">Solidarity in purpose</strong>
+                <strong className="text-black dark:text-neutral-100">Solidarity in Purpose</strong>
               </div>
-              On March 10th, 2024, our core team members solemnly swore to solidarity in advancing technology for humanity by our principles and the characteristics outlined in an{" "}
+              <div className="text-base">On March 10th, 2024, our core team members solemnly swore to solidarity in advancing technology for humanity by our principles and the characteristics outlined in an{" "}
               <LinkPreview
                 imageSrc="/site-thumbnails/google-docs.avif"
                 isStatic={true}
                 url="https://drive.google.com/file/d/1dr74v3FQz4xgiCksmLZyTspa973SigOc/view?usp=sharing">
                 Oath of Solidarity
               </LinkPreview>{". "}
-              This Oath goes beyond the company but rather an alignment of our life purpose and professional principles we abide by.
+              This Oath goes beyond the company but rather an alignment of our life purpose and professional principles we abide by.</div>
             </div>
           </div>
         </Section>
